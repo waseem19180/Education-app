@@ -1,0 +1,6 @@
+{
+  "name": "EduConnect - منصة الإدارة والتواصل المدرسي",
+  "description": "منصة تعليمية متكاملة لربط إدارة المدرسة والمعلمين والطلاب وأولياء الأمور لمتابعة الأداء الأكاديمي والحضور والتواصل للصف الحادي عشر العلمي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

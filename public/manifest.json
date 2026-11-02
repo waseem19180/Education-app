@@ -1,0 +1,29 @@
+{
+  "id": "/",
+  "name": "EduConnect - منصة الإدارة والتواصل المدرسي",
+  "short_name": "EduConnect",
+  "description": "منصة تعليمية متكاملة لربط إدارة المدرسة والمعلمين والطلاب وأولياء الأمور لمتابعة الأداء الأكاديمي والحضور للصف الحادي عشر العلمي.",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "productivity"]
+}

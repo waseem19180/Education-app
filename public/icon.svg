@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="eduGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#eduGrad)" />
+  
+  <!-- Outer subtle crest circle -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="4" stroke-dasharray="8 8" />
+
+  <!-- Shield / Graduation Cap / Open Book Emblem -->
+  <g filter="url(#shadow)">
+    <!-- Open Book / Wings -->
+    <path d="M256 370 C220 340 150 335 110 350 L110 220 C150 205 220 210 256 240 C292 210 362 205 402 220 L402 350 C362 335 292 340 256 370 Z" 
+          fill="#ffffff" fill-opacity="0.95" />
+    <path d="M256 245 L256 368" stroke="#0f172a" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Central Book Pages lines -->
+    <line x1="140" y1="260" x2="225" y2="250" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+    <line x1="140" y1="285" x2="225" y2="275" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+    <line x1="140" y1="310" x2="210" y2="300" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+
+    <line x1="372" y1="260" x2="287" y2="250" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+    <line x1="372" y1="285" x2="287" y2="275" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+    <line x1="372" y1="310" x2="302" y2="300" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Graduation Mortarboard cap floating above -->
+    <polygon points="256,125 390,175 256,225 122,175" fill="url(#accentGrad)" />
+    <!-- Cap under rim -->
+    <path d="M180 198 L180 230 C180 250 220 265 256 265 C292 265 332 250 332 230 L332 198" fill="#0284c7" />
+    <!-- Tassel -->
+    <circle cx="256" cy="175" r="7" fill="#ffffff" />
+    <path d="M256 175 Q320 185 340 230" fill="none" stroke="#facc15" stroke-width="5" stroke-linecap="round" />
+    <circle cx="340" cy="235" r="6" fill="#facc15" />
+  </g>
+
+  <!-- Connective Nodes / Stars (Edu + Connect) -->
+  <circle cx="120" cy="140" r="12" fill="#38bdf8" />
+  <circle cx="392" cy="140" r="12" fill="#38bdf8" />
+  <line x1="130" y1="146" x2="180" y2="170" stroke="#38bdf8" stroke-width="3" stroke-dasharray="4 4" stroke-opacity="0.8" />
+  <line x1="382" y1="146" x2="332" y2="170" stroke="#38bdf8" stroke-width="3" stroke-dasharray="4 4" stroke-opacity="0.8" />
+</svg>
